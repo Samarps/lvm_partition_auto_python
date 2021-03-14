@@ -8,7 +8,7 @@ from lvm import *
 while True:
 	lvm()
 	y = input("Tell me what I can do for you: ").lower()
-	if (("view" in y) and (("volume" in y) or ("harddisk" in y) or ("hd" in y)) or ("1" in y)):
+	if (("view" in y) and (("volume" in y) or ("storage" in y) or ("block" in y) or ("harddisk" in y) or ("hd" in y)) or ("1" in y)):
 		lvm_1()
 	elif (("create") and (("physical" in y) or ("pv" in y)) or ("2" in y)):
 		lvm_2()
@@ -26,7 +26,10 @@ while True:
 		lvm_8()
 	elif (("extend" in y) and (("group" in y) or ("vg" in y)) or ("9" in y)):
 		lvm_9()
-	elif (("exit" in x) or ("close" in x)):
+	elif (("exit" in y) or ("close" in y)):
+		text("2")
+		print("\nThankyou! Meet you next time :)\n")
+		text("7")
 		break
 	else:
 		print("\nI can't understand you! Seems like a wrong input")
