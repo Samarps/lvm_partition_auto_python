@@ -11,8 +11,8 @@ def text(c):
 def lvm():
 	os.system("clear")
 	text("2")
-	print("\n\t\t\t\tMenu Program: LVM (Logical Volume Management)\n")
-	print("\t\t\t\t````````````````````````````````````````````\n")
+	print("\n\t\t\tMenu Program: LVM (Logical Volume Management)\n")
+	print("\t\t\t````````````````````````````````````````````\n")
 	text("7")
 	print("\tYou can either type option no. OR can ask in normal human readable English Language :)\n")
 	text("3")
