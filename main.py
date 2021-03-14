@@ -26,6 +26,8 @@ while True:
 		lvm_8()
 	elif (("extend" in y) and (("group" in y) or ("vg" in y)) or ("9" in y)):
 		lvm_9()
+	elif (("exit" in x) or ("close" in x)):
+		break
 	else:
 		print("\nI can't understand you! Seems like a wrong input")
 
