@@ -1,4 +1,4 @@
-# lvm_partition_auto_python
+# LVM Partition Automation using Python
 
 This Python code will help you do most of the LVM partition related work just by choosing the work you want to do from the Menu provided. Listing some of the stuff you can do through this program related to LVM:
 - View all the Block Storage/HD
