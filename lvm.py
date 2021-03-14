@@ -24,7 +24,8 @@ def lvm():
 	print("6. Create a Logical Volume (LV) in a VG")
 	print("7. View details of Logical Volume (LV)")
 	print("8. Extend a Logical Volume (LV)")
-	print("9. Extend a Volume Group (VG)\n")
+	print("9. Extend a Volume Group (VG)")
+	print("-> Close/Exit the program\n")
 	text("7")
 
 def lvm_1():
@@ -130,4 +131,3 @@ def lvm_9():
 	text("2")
 	print("Your VG Extended Successfully!")
 	text("7")
-
