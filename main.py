@@ -1,4 +1,4 @@
-# load the required modules
+# load required modules
 import os
 import subprocess as sp
 import getpass
